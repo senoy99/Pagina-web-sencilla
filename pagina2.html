@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+  <meta charset='UTF-8'>
+  <title>Fundamentos Técnicos</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel='stylesheet' href='estilos.css'>
+</head>
+<body>
+  <nav>
+    <a href='index.html'>Inicio</a>
+    <a href='pagina2.html'>Fundamentos</a>
+    <a href='pagina3.html'>Galería</a>
+  </nav>
+
+  <header>
+    <h1>Cómo funcionan las redes neuronales</h1>
+  </header>
+
+  <main>
+    <h2>Estructura básica</h2>
+    <p>
+      Una red neuronal consta de tres tipos de capas: la <strong>capa de entrada</strong> (donde se reciben los datos), una o varias <strong>capas ocultas</strong> (donde ocurre el procesamiento), y la <strong>capa de salida</strong> (donde se produce el resultado).
+    </p>
+
+    <h2>Activación y propagación</h2>
+    <p>
+      Cada neurona recibe valores numéricos (llamados entradas), los multiplica por <em>pesos</em>, suma los resultados y aplica una función de activación (como ReLU o Sigmoid). Esta operación permite decidir si una neurona "se activa" y transmite su valor a la siguiente capa.
+    </p>
+
+    <h2>Entrenamiento: el aprendizaje</h2>
+    <p>
+      El aprendizaje ocurre mediante un proceso llamado <strong>retropropagación</strong>. El sistema hace predicciones, calcula el error y ajusta los pesos mediante un algoritmo como <em>descenso del gradiente</em>. Esto se repite muchas veces (épocas) hasta que la red mejora su precisión.
+    </p>
+
+    <h2>Modelos populares</h2>
+    <ul>
+      <li><strong>Perceptrón Multicapa (MLP):</strong> ideal para datos estructurados simples.</li>
+      <li><strong>Redes Convolucionales (CNN):</strong> muy usadas en procesamiento de imágenes y visión artificial.</li>
+      <li><strong>Redes Recurrentes (RNN y LSTM):</strong> especializadas en secuencias como texto o audio.</li>
+      <li><strong>Transformers:</strong> modelos de vanguardia que permiten comprensión contextual, como en Chatbots y traducción automática.</li>
+    </ul>
+
+    <h2>¿Por qué son tan efectivas?</h2>
+    <p>
+      Porque no necesitan reglas programadas manualmente. Aprenden directamente de los datos, adaptándose a patrones complejos que antes eran imposibles de programar. Esta flexibilidad las convierte en el motor de la revolución de la IA.
+    </p>
+  </main>
+</body>
+</html>
